@@ -1,2 +1,2 @@
 # Enigma
-crypto library
+crypto library & project
