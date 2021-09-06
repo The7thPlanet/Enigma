@@ -6,5 +6,6 @@
 
 int main (void)
 {
-    Enigma::ER("./text.txt");
+    Enigma message1;
+    message1. ER("./text.txt");
 }
