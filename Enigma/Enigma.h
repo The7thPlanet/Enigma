@@ -31,14 +31,16 @@ public:
         else
             printf("%c", C);
      }
-    
+    FILE *CM;
+    char CC;
     while(1)
      {
-        C = fgetc(message);
-        if(C==EOF)
+        CC = fgetc(CM);
+        if(CC==EOF)
             break;
         else
-            printf("%c", C);
+            
+            printf("%c", CC);
      }
      fclose(message);
      return 0;
